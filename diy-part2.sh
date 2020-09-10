@@ -13,3 +13,4 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
 git clone https://github.com/s1oz/luci-app-koolproxyR.git ./package/luci-app-koolproxyR
+git clone https://github.com/tuanqing/install-program ./package/install-program
